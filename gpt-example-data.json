@@ -1,0 +1,222 @@
+{
+    "tier_1": [
+        {
+            "high_tier": {
+                "james": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "bob": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "low_tier": {
+                "james": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "bob": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "low_tier_retired": {
+                "charlie": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "andy": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "high_tier_retired": {
+                "lucas": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "aaron": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            }
+        }
+    ],
+    "tier_2": [
+        {
+            "high_tier": {
+                "james": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "bob": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "low_tier": {
+                "james": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "bob": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "low_tier_retired": {
+                "charlie": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "andy": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "high_tier_retired": {
+                "lucas": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "aaron": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            }
+        }
+    ],
+    "tier_3": [
+        {
+            "high_tier": {
+                "james": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "bob": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "low_tier": {
+                "james": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "bob": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "low_tier_retired": {
+                "charlie": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "andy": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "high_tier_retired": {
+                "lucas": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "aaron": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            }
+        }
+    ],
+    "tier_4": [
+        {
+            "high_tier": {
+                "james": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "bob": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "low_tier": {
+                "james": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "bob": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "low_tier_retired": {
+                "charlie": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "andy": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "high_tier_retired": {
+                "lucas": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "aaron": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            }
+        }
+    ],
+    "tier_5": [
+        {
+            "high_tier": {
+                "james": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "bob": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "low_tier": {
+                "james": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "bob": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "low_tier_retired": {
+                "charlie": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "andy": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            },
+            "high_tier_retired": {
+                "lucas": {
+                    "region": "na",
+                    "device": "kbm"
+                },
+                "aaron": {
+                    "region": "as",
+                    "device": "mob"
+                }
+            }
+        }
+    ]
+}
