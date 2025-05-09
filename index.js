@@ -23,16 +23,17 @@ class TierList {
         ].map((v) => document.getElementById(`tier_container_${v}`));
 
         this.deviceToEmojiDiv = new Map([
-            ['kbm', '<img src="img/keyboard.png" style="width: 43px; top: 4px; position: relative;"></img>'],
-            ['con', '<img src="img/controller.png" style="width: 35px; top: 6px; position: relative;"></img>'],
-            ['mob', '<img src="img/mobile.png" style="width: 40px; top: 5px; position: relative;"></img>']
+            ['kbm', '<div style="display: inline; font-size: 24px;"> Keyboard</div>'],
+            ['con', '<div style="display: inline; font-size: 24px;"> Controller</div>'],
+            ['mob', '<div style="display: inline; font-size: 24px;"> Mobile</div>']
         ]);
 
         this.regionToEmojiDiv = new Map([
-            ['eu', '<img src="img/EU.png" style="width: 37px; top: 6px; border-radius: 7px; position: relative; "></img>'],
-            ['na', '<img src="img/NA.png" style="width: 39px; top: 5px; border-radius: 7px; position: relative; "></img>'],
-            ['as', '<img src="img/AS.png" style="width: 39px; top: 5px; border-radius: 7px; position: relative; "></img>'],
-            ['au', '<img src="img/AU.png" style="width: 41px; top: 5px; border-radius: 7px; position: relative; "></img>'],
+            ['eu', '<div style="display: inline; font-size: 24px;"> EU</div>'],
+            ['na', '<div style="display: inline; font-size: 24px;"> NA</div>'],
+            ['as', '<div style="display: inline; font-size: 24px;"> AS</div>'],
+            ['au', '<div style="display: inline; font-size: 24px;"> AU</div>'],
+            ['as/au', '<div style="display: inline; font-size: 24px;"> AS/AU</div>'],
         ]);
 
         setInterval(() => {
@@ -52,7 +53,7 @@ class TierList {
             const width = pillar.getBoundingClientRect().width;
             const tierTextChildren = pillar.querySelectorAll('.tier-text');
             for (let textElement of tierTextChildren) {
-                const newFontSize = `${width / 8}px`; // or tweak the divisor for your needs
+                const newFontSize = `${width / 10}px`; // or tweak the divisor for your needs
                 textElement.style.fontSize = newFontSize;
                 textElement.style.height = newFontSize;
             }

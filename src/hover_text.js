@@ -33,7 +33,7 @@ function showHoverText(item) {
                         <div style="
                             font-weight: bold;
                             text-shadow: 2px 2px 4px #000000;
-                            font-size: 22px;
+                            font-size: 32px;
                             margin-bottom: 6px;
                             color: rgb(153, 0, 0);
                         ">
@@ -46,28 +46,32 @@ function showHoverText(item) {
                                 text-shadow: 2px 2px 4px #000000;
                                 font-weight: bold;
                                 font-family: MinecraftTen;
-                                font-size: 20px;
-                            ">Tier:</span> ${tierData.tier}<br>
+                                font-size: 25px;
+                                display: inline;
+                            ">Tier:</span> <div style="font-size: 24px; display: inline;">${tierData.tier}</div><br>
                             <span style="
                                 color: rgb(199, 73, 0);
                                 text-shadow: 2px 2px 4px #000000;
                                 font-weight: bold;
                                 font-family: MinecraftTen;
-                                font-size: 20px;
+                                font-size: 25px;
+                                display: inline;
                             ">Region:</span> ${list.regionToEmojiDiv.get(tierData.region.toLowerCase())}<br>
                             <span style="
                                 color: rgb(199, 73, 0);
                                 text-shadow: 2px 2px 4px #000000;
                                 font-weight: bold;
                                 font-family: MinecraftTen;
-                                font-size: 20px;
+                                font-size: 25px;
+                                display: inline;
                             ">Device:</span> ${list.deviceToEmojiDiv.get(tierData.device.toLowerCase())}<br>
                             ${tierData.retired ? `<span style="
                                 color: rgb(116, 0, 187);
                                 text-shadow: 2px 2px 4px #000000;
                                 font-weight: bold;
                                 font-family: MinecraftTen;
-                                font-size: 24px;
+                                font-size: 29px;
+                                display: inline;
                             ">Retired</span>` : ''}
                         </div>
                     </div>
